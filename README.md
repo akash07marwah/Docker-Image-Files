@@ -26,8 +26,8 @@ docker run <ID>
 ```
 
 # 2. Node Simple Server Image
-    
- This is a simple docker file which runs node-server.
+
+This is a simple docker file which runs node-server.
  You can directly run the command:
  ```
  docker run -p 8080:8080 akashmarwah007/simplenodeapp
@@ -41,3 +41,10 @@ docker run <ID>
   docker run -p 8080:8080 <ID>
   ```
   After above steps go to: localhost:8080 on your browser.
+# 3. Visits Node App with Docker
+   This Node App tells the no. of visits of the homepage, it uses Redis as DB is Dockerized.
+    
+   To run first install docker-compose and then run command in visits folder in terminal:
+    ```
+    docker-compose up
+    ```and visit localhost:8081 on your browser.
