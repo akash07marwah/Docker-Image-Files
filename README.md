@@ -42,9 +42,10 @@ This is a simple docker file which runs node-server.
   ```
   After above steps go to: localhost:8080 on your browser.
 # 3. Visits Node App with Docker
-   This Node App tells the no. of visits of the homepage, it uses Redis as DB is Dockerized.
+   This Node App tells the no. of visits of the homepage, it uses Redis as DB and is Dockerized.
     
    To run first install docker-compose and then run command in visits folder in terminal:
     ```
     docker-compose up
-    ```and visit localhost:8081 on your browser.
+    ```
+    and visit localhost:8081 on your browser.
